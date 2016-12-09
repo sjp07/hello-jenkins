@@ -1,5 +1,6 @@
 #!/bin/sh
- 
+# deploy script 
+#
 ssh app@192.241.239.101 <<EOF
   cd ~/hello-jenkins
   git pull
